@@ -75,6 +75,57 @@ Traversal adalah proses mengunjungi seluruh node dalam pohon.
 ## ▶️ Cara Menjalankan Program
 Pastikan Python sudah terinstall (versi 3.x).
 
-1. Clone repository ini:
+### Langkah-Langkah:
+
+1. **Clone repository ini:**
    ```bash
    git clone https://github.com/ricoagista/UAS-Algoritma-Pemograman.git
+   cd UAS-Algoritma-Pemograman
+   ```
+
+2. **Pastikan Tkinter sudah terinstall:**
+   - Tkinter biasanya sudah included dengan Python
+   - Jika belum, install dengan:
+     ```bash
+     # Untuk Windows
+     pip install tk
+     
+     # Untuk Linux (Ubuntu/Debian)
+     sudo apt-get install python3-tk
+     
+     # Untuk macOS
+     brew install python-tk
+     ```
+
+3. **Jalankan program:**
+   ```bash
+   python main.py
+   ```
+   atau
+   ```bash
+   python3 main.py
+   ```
+
+4. **Gunakan aplikasi:**
+   - Masukkan angka pada field input
+   - Klik tombol "Insert" untuk menambah node ke BST
+   - Klik tombol "InOrder", "PreOrder", atau "PostOrder" untuk melihat hasil traversal
+   - Hasil akan ditampilkan di area output
+
+### Contoh Penggunaan:
+- Input data: `50, 30, 70, 20, 40, 60, 80`
+- InOrder akan menampilkan: `20, 30, 40, 50, 60, 70, 80` (terurut menaik)
+- PreOrder akan menampilkan: `50, 30, 20, 40, 70, 60, 80`
+- PostOrder akan menampilkan: `20, 40, 30, 60, 80, 70, 50`
+
+---
+
+## 📁 Struktur File
+```
+UAS-Algoritma-Pemograman/
+├── main.py              # File utama dengan GUI Tkinter
+├── README.md           # Dokumentasi proyek
+└── requirements.txt    # Dependensi proyek
+```
+
+---
