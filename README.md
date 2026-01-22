@@ -123,7 +123,7 @@ Pastikan Python sudah terinstall (versi 3.x).
 ## 📁 Struktur File
 ```
 UAS-Algoritma-Pemograman/
-├── main.py              # File utama dengan GUI Tkinter
+├── Index.py              # File utama dengan GUI Tkinter
 ├── README.md           # Dokumentasi proyek
 └── requirements.txt    # Dependensi proyek
 ```
